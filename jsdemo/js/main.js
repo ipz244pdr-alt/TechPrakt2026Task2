@@ -1,8 +1,8 @@
 let arr = [
-    {
-        "name": "Petro",
+   {
+        "name": "Denys (Papizhuk)",
         "age": 19,
-        "title": "description"
+        "title": "Software Engineering Student"
     },
     {
         "name": "Serhii",
