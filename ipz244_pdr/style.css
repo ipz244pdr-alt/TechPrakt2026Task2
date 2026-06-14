@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #007bc2;
+    background-color: #1e3a8a;
     color: white;
     padding: 20px;
     text-align: center;
@@ -24,6 +24,11 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.news-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
 }
 .news-card img {
     width: 100%;
